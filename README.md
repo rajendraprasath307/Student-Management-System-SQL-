@@ -72,7 +72,7 @@
 
 # Student-Management-System-SQL-queries
 ## Creating the database and tables. Inserting sample data. Performing various queries to extract useful information from the database.
-
+```sql
 -- Create the database
 
 CREATE DATABASE StudentManagement;
