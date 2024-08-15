@@ -1,4 +1,76 @@
-# Student-Management-System-SQL-
+## Student Management System SQL Project
+
+### Explanation
+
+- **Creating the Database:** 
+  - `CREATE DATABASE StudentManagement;` creates a new database named `StudentManagement`.
+
+- **Selecting the Database:** 
+  - `USE StudentManagement;` selects `StudentManagement` as the active database for subsequent operations.
+
+- **Students Table:** 
+  - Stores information about students including their ID, first and last names, date of birth, and enrollment date.
+
+- **Courses Table:** 
+  - Contains details about courses such as course ID, name, and credit value.
+
+- **Enrollments Table:** 
+  - Links students to courses with their enrollment date and references to the `Students` and `Courses` tables.
+
+- **Grades Table:** 
+  - Records the grades for each enrollment with a reference to the `Enrollments` table.
+
+- **Attendance Table:** 
+  - Tracks attendance for each enrollment, including date and status (Present/Absent).
+
+- **Inserting Data into Students:** 
+  - Adds sample student records to the `Students` table.
+
+- **Inserting Data into Courses:** 
+  - Adds sample courses with credit values to the `Courses` table.
+
+- **Inserting Data into Enrollments:** 
+  - Links students to courses with their enrollment dates in the `Enrollments` table.
+
+- **Inserting Data into Grades:** 
+  - Assigns grades to each enrollment in the `Grades` table.
+
+- **Inserting Data into Attendance:** 
+  - Records attendance for each enrollment in the `Attendance` table.
+
+- **Retrieve All Students with Enrollment and Course Information:** 
+  - Lists students along with the courses they are enrolled in and their enrollment dates.
+
+- **Retrieve Students with Their Grades:** 
+  - Shows students, the courses they are enrolled in, and their grades.
+
+- **Get All Enrollments and Their Attendance:** 
+  - Provides enrollment details with corresponding attendance records.
+
+- **Find Students Absent More Than a Specific Number of Times:** 
+  - Identifies students who have missed more than a set number of classes.
+
+- **Retrieve Average Grade for Each Course:** 
+  - Calculates the average grade for each course based on the grading scale.
+
+- **List All Courses with Their Number of Enrolled Students:** 
+  - Lists courses along with the number of students enrolled in each course.
+
+- **Retrieve Attendance Summary for a Specific Course:** 
+  - Provides a summary of attendance for each course, including counts per date.
+
+- **Find Students Enrolled in All Courses:** 
+  - Identifies students who are enrolled in every course offered.
+
+- **List All Students and Their Total Credits Based on Enrolled Courses:** 
+  - Calculates the total number of credits for each student based on their enrolled courses.
+
+- **Retrieve Students with Their Enrollment Dates and Grades:** 
+  - Shows students along with their enrollment dates and grades in various courses.
+
+
+
+# Student-Management-System-SQL-queries
 ## Creating the database and tables. Inserting sample data. Performing various queries to extract useful information from the database.
 
 -- Create the database
